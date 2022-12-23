@@ -32,7 +32,7 @@ Discentes:
 
 #### Instalação do bind9
 
-![Apresentação sem título](https://user-images.githubusercontent.com/103418874/209363596-bd75b149-5c27-4793-98c5-09eedb9fb9c0.png)
+![Captura de Tela (139)](https://user-images.githubusercontent.com/103418874/209363693-1adab4a6-8ba8-4d14-abcd-9013cdc42003.png)
 
 #### Verificando status do serviço bind9
 
