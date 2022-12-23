@@ -15,3 +15,9 @@ Discentes:
 * Vitor Daniel de Oliveira Magalhães
 
 ### ``Configuração de hardware utilizada em cada MV``
+
+## ``DEFINIÇÕES``
+
+## ``Tabela com as definições dos IPs das MVs``
+
+## ``Tabela com as definições de nomes para hostname, FQDN,aliases e endereços IP das MVs``
