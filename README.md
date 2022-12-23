@@ -31,7 +31,7 @@ Discentes:
 ❖ nameserver1 (DNS master)
 
 #### Instalação do bind9
-
+![instalação](https://user-images.githubusercontent.com/103418874/209363545-5fde18b3-c206-456b-addd-6db114612e0c.png)
 
 #### Verificando status do serviço bind9
 
