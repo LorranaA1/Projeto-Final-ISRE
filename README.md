@@ -36,3 +36,14 @@ Discentes:
 
 ## ``TESTES/VALIDAÇÃO``
 
+❖ NAT
+
+❖ DNS
+
+✦ DNS MASTER
+
+✦ DNS SLAVE
+
+❖ SAMBA
+
+❖ SERVIDOR WEB
