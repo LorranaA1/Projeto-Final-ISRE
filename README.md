@@ -18,6 +18,21 @@ Discentes:
 
 ## ``Definições``
 
-### Tabela com as definições dos IPs das MVs
+## Hostnames com o nome de domínio no S.O. de cada MV.
 
-### Tabela com as definições de nomes para hostname, FQDN, aliases e endereços IP das MVs
+## Gateway server
+
+## Compartilhamento de arquivos com SAMBA
+
+## Interfaces para a rede interna (LAN) configurada com o endereçamento ip do grupo
+
+## ``Configuração do bind9 com o nameserver1 (master) e o nameserver2 (slave)``
+
+### nameserver1 (DNS master)
+
+### nameserver2 (DNS slave)
+
+## Implementando um servidor Web LAMP
+
+## ``TESTES/VALIDAÇÃO``
+
