@@ -20,4 +20,4 @@ Discentes:
 
 ## Tabela com as definições dos IPs das MVs
 
-## Tabela com as definições de nomes para hostname, FQDN,aliases e endereços IP das MVs
+## Tabela com as definições de nomes para hostname, FQDN, aliases e endereços IP das MVs
