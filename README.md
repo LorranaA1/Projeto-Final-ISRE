@@ -44,7 +44,7 @@ Discentes:
 ![zonaR](https://user-images.githubusercontent.com/103418874/209365397-e531bdfb-75b2-4539-bf3e-f29ac906c8b6.png)
 
 #### Configuração do named.conf.local no arquivo do bind:
-
+![configuracaoNamed_conf_local](https://user-images.githubusercontent.com/103418874/209365620-a61048b3-b4a0-4af2-ac60-486deefe25e0.png)
 #### Verificação de sintaxe:
 
 ✦ 
