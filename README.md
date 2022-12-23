@@ -28,6 +28,7 @@ Discentes:
 
 ## Configuração do bind9 com o nameserver1 (master) e o nameserver2 (slave)
 
+
 ❖ nameserver1 (DNS master)
 
 #### Instalação do bind9
