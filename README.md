@@ -70,7 +70,7 @@ Discentes:
 
 ✦ DNS MASTER
 
-⇨ Teste de configuração como cliente:
+⇨ Testando a configuração como cliente:
 
 ⇨ Testando o serviço DNS para a máquina ns1:
 
