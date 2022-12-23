@@ -70,13 +70,10 @@ Discentes:
 
 ✦ DNS MASTER
 
-  ⇨ Teste de configuração como cliente:
-
-  ⇨ Testando o serviço DNS para a máquina ns1:
-
-  ⇨ Testando o serviço DNS reverso para a máquina ns1:
-
-  ⇨ Testando o serviço DNS reverso para a máquina ns2:
+⇨ Teste de configuração como cliente:
+⇨ Testando o serviço DNS para a máquina ns1:
+⇨ Testando o serviço DNS reverso para a máquina ns1:
+⇨ Testando o serviço DNS reverso para a máquina ns2:
 
 ✦ DNS SLAVE
 
