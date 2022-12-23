@@ -39,6 +39,7 @@ Discentes:
 #### Editando arquivos db:
 ✦ Zona Direta: db.grupo7.turma913.ifalara.local
 ![zonaD](https://user-images.githubusercontent.com/103418874/209365372-f077e8f2-7555-4f6e-a88c-216278a2fd41.png)
+
 ✦ Zona reversa: db.10.9.13.rev
 ![zonaR](https://user-images.githubusercontent.com/103418874/209365397-e531bdfb-75b2-4539-bf3e-f29ac906c8b6.png)
 
