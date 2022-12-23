@@ -30,6 +30,34 @@ Discentes:
 
 ❖ nameserver1 (DNS master)
 
+#### Instalação do bind9
+
+#### Verificando status do serviço bind9
+
+#### Diretórios do bind
+
+#### Editando arquivos db:
+
+✦ Zona Direta: db.grupo7.turma913.ifalara.local
+
+✦ Zona reversa: db.10.9.13.rev
+
+#### Configuração do named.conf.local no arquivo do bind:
+
+#### Verificação de sintaxe:
+
+✦ 
+
+✦ 
+
+#### Configurando para somente resolver endereços IPv4:
+
+#### Executando o bind:
+
+#### Configuração dos clientes:
+
+✦ Editando o arquivo de configuração do netplan:
+
 ❖ nameserver2 (DNS slave)
 
 ## Implementando um servidor Web LAMP
@@ -41,6 +69,14 @@ Discentes:
 ❖ DNS
 
 ✦ DNS MASTER
+
+⇨ Teste de configuração como cliente:
+
+⇨ Testando o serviço DNS para a máquina ns1:
+
+⇨ Testando o serviço DNS reverso para a máquina ns1:
+
+⇨ Testando o serviço DNS reverso para a máquina ns2:
 
 ✦ DNS SLAVE
 
