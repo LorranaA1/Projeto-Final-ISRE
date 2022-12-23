@@ -14,7 +14,7 @@ Discentes:
 * Maria Lorrana Alves Barbosa
 * Vitor Daniel de Oliveira Magalhães
 
-## ``Definições``
+## ``DEFINIÇÕES``
 
 ## Configuração de hardware utilizada em cada MV
 
