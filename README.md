@@ -32,6 +32,7 @@ Discentes:
 
 #### Instalação do bind9
 
+
 #### Verificando status do serviço bind9
 
 #### Diretórios do bind
