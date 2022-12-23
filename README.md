@@ -70,19 +70,19 @@ Discentes:
 
 ❖ DNS
 
-✦ DNS MASTER
+   ✦ DNS MASTER
 
-⇨ Testando a configuração como cliente:
-![configComoCliente](https://user-images.githubusercontent.com/103418874/209367255-9fc4aa20-cbbd-46a6-ad50-5b0708498809.png)
+     ⇨ Testando a configuração como cliente:
+     ![configComoCliente](https://user-images.githubusercontent.com/103418874/209367255-9fc4aa20-cbbd-46a6-ad50-5b0708498809.png)
 
-⇨ Testando o serviço DNS para a máquina ns1:
-![servicoDNSparaAmaquina1](https://user-images.githubusercontent.com/103418874/209367286-3b55f2c1-2e4b-4673-b921-302f782dd101.png)
+     ⇨ Testando o serviço DNS para a máquina ns1:
+     ![servicoDNSparaAmaquina1](https://user-images.githubusercontent.com/103418874/209367286-3b55f2c1-2e4b-4673-b921-302f782dd101.png)
 
-⇨ Testando o serviço DNS reverso para a máquina ns1:
-![DNSreversoMaquina1](https://user-images.githubusercontent.com/103418874/209367336-32808973-7fa9-45d3-8582-dd1f8200efaa.png)
+     ⇨ Testando o serviço DNS reverso para a máquina ns1:
+     ![DNSreversoMaquina1](https://user-images.githubusercontent.com/103418874/209367336-32808973-7fa9-45d3-8582-dd1f8200efaa.png)
 
-⇨ Testando o serviço DNS reverso para a máquina ns2:
-![DNSreversoMaquina2](https://user-images.githubusercontent.com/103418874/209367353-2a88aa60-d286-445b-8da0-c8bf6bcba6d2.png)
+     ⇨ Testando o serviço DNS reverso para a máquina ns2:
+     ![DNSreversoMaquina2](https://user-images.githubusercontent.com/103418874/209367353-2a88aa60-d286-445b-8da0-c8bf6bcba6d2.png)
 
 ✦ DNS SLAVE
 
