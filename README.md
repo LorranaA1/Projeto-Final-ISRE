@@ -13,3 +13,5 @@ Discentes:
 * Marcos Felype Silva
 * Maria Lorrana Alves Barbosa
 * Vitor Daniel de Oliveira Magalhães
+
+### ``Configuração de hardware utilizada em cada MV``
