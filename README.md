@@ -14,25 +14,25 @@ Discentes:
 * Maria Lorrana Alves Barbosa
 * Vitor Daniel de Oliveira Magalhães
 
-## ``Configuração de hardware utilizada em cada MV``
-
 ## ``Definições``
 
-## ``Hostnames com o nome de domínio no S.O. de cada MV``
+## Configuração de hardware utilizada em cada MV
 
-## ``Gateway server``
+## Hostnames com o nome de domínio no S.O. de cada MV
 
-## ``Compartilhamento de arquivos com SAMBA``
+## Gateway server
 
-## ``Interfaces para a rede interna (LAN) configurada com o endereçamento ip do grupo``
+## Compartilhamento de arquivos com SAMBA
 
-## ``Configuração do bind9 com o nameserver1 (master) e o nameserver2 (slave)``
+## Interfaces para a rede interna (LAN) configurada com o endereçamento ip do grupo
+
+## Configuração do bind9 com o nameserver1 (master) e o nameserver2 (slave)
 
 ❖ nameserver1 (DNS master)
 
 ❖ nameserver2 (DNS slave)
 
-## ``Implementando um servidor Web LAMP``
+## Implementando um servidor Web LAMP
 
 ## ``TESTES/VALIDAÇÃO``
 
