@@ -18,21 +18,21 @@ Discentes:
 
 ## ``Definições``
 
-## Hostnames com o nome de domínio no S.O. de cada MV.
+## ``Hostnames com o nome de domínio no S.O. de cada MV``
 
-## Gateway server
+## ``Gateway server``
 
-## Compartilhamento de arquivos com SAMBA
+## ``Compartilhamento de arquivos com SAMBA``
 
-## Interfaces para a rede interna (LAN) configurada com o endereçamento ip do grupo
+## ``Interfaces para a rede interna (LAN) configurada com o endereçamento ip do grupo``
 
 ## ``Configuração do bind9 com o nameserver1 (master) e o nameserver2 (slave)``
 
-### nameserver1 (DNS master)
+❖ nameserver1 (DNS master)
 
-### nameserver2 (DNS slave)
+❖ nameserver2 (DNS slave)
 
-## Implementando um servidor Web LAMP
+## ``Implementando um servidor Web LAMP``
 
 ## ``TESTES/VALIDAÇÃO``
 
