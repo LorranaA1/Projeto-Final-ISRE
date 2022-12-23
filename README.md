@@ -33,14 +33,14 @@ Discentes:
 #### Instalação do bind9
 ![instalaçaobind9](https://user-images.githubusercontent.com/103418874/209365034-9b8aec93-fb20-4459-a4fc-1af42b1a7021.png)
 #### Verificando status do serviço bind9
-![Captura de Tela (142)](https://user-images.githubusercontent.com/103418874/209364709-09a35fe8-d3a9-4170-8311-0b782d18a09d.png)
+![bind9](https://user-images.githubusercontent.com/103418874/209365149-e3e88741-11e4-48c2-8988-56a8b37e3798.png)
 #### Diretórios do bind
-![Captura de Tela (143)](https://user-images.githubusercontent.com/103418874/209364815-eec10522-aefc-483d-81cb-4752916f9a36.png)
+![diretoriosBind](https://user-images.githubusercontent.com/103418874/209365240-38d546bb-b6f6-4c8a-b33a-8a1fb1848311.png)
 #### Editando arquivos db:
-
 ✦ Zona Direta: db.grupo7.turma913.ifalara.local
-
+![zonaD](https://user-images.githubusercontent.com/103418874/209365372-f077e8f2-7555-4f6e-a88c-216278a2fd41.png)
 ✦ Zona reversa: db.10.9.13.rev
+![zonaR](https://user-images.githubusercontent.com/103418874/209365397-e531bdfb-75b2-4539-bf3e-f29ac906c8b6.png)
 
 #### Configuração do named.conf.local no arquivo do bind:
 
