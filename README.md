@@ -32,11 +32,10 @@ Discentes:
 
 #### Instalação do bind9
 ![Captura de Tela (140)](https://user-images.githubusercontent.com/103418874/209364375-0da9f269-c0bb-4625-804a-540b7b1a6a1d.png)
-
 #### Verificando status do serviço bind9
-
+![Captura de Tela (142)](https://user-images.githubusercontent.com/103418874/209364709-09a35fe8-d3a9-4170-8311-0b782d18a09d.png)
 #### Diretórios do bind
-
+![Captura de Tela (143)](https://user-images.githubusercontent.com/103418874/209364815-eec10522-aefc-483d-81cb-4752916f9a36.png)
 #### Editando arquivos db:
 
 ✦ Zona Direta: db.grupo7.turma913.ifalara.local
