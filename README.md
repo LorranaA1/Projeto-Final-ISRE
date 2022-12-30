@@ -227,6 +227,17 @@ exit 0
     Password: alunoifal
 ```
 
+3. Mudando permissões 
+
+```bash
+   sudo chown -R nobody:nogroup /samba/public
+   sudo chmod -R 0775 /samba/public
+   sudo chgrp sambashare /samba/public
+```
+
+
+    
+
 ## Interfaces para a rede interna (LAN) configurada com o endereçamento ip do grupo
 
 ## ``CONFIGURAÇÃO DO BIND``
