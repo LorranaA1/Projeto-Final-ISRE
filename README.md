@@ -27,9 +27,9 @@ Discentes:
 ## Interfaces para a rede interna (LAN) configurada com o endereçamento ip do grupo
 
 ## ``CONFIGURAÇÃO DO BIND``
-#### Configuração dos servidores DNS Master e Slave
+### Configuração dos servidores DNS Master e Slave
 
-❖ nameserver1 (DNS master)
+#### ❖ nameserver1 (DNS master)
 
 #### Instalação do bind9
 ✦ Instale o bind9 via apt-get
@@ -68,7 +68,7 @@ $ sudo systemctl status bind9
 ✦ Editando o arquivo de configuração do netplan:
 ![arquivoNetplan](https://user-images.githubusercontent.com/103418874/209366779-1d892404-7b27-4b73-ad90-be4cd42d2e8f.png)
 
-❖ nameserver2 (DNS slave)
+#### ❖ nameserver2 (DNS slave)
 
 ## Implementando um servidor Web LAMP
 
