@@ -43,7 +43,10 @@ $ sudo systemctl status bind9
 ```
 ![bind9](https://user-images.githubusercontent.com/103418874/209365149-e3e88741-11e4-48c2-8988-56a8b37e3798.png)
 #### Diretórios do bind
-
+✦ Verifique se os arquivos do bind estão no diretório /etc/bind.
+```bash
+$ ls /etc/bind
+```
 ![diretoriosBind](https://user-images.githubusercontent.com/103418874/209365240-38d546bb-b6f6-4c8a-b33a-8a1fb1848311.png)
 #### Editando arquivos db:
 ✦ Zona Direta: db.grupo7.turma913.ifalara.local
