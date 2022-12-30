@@ -188,6 +188,8 @@ $ dig -x 10.9.13.113
 
 🔹ping para dh1
 
+![pingsmb](https://user-images.githubusercontent.com/103418874/210068233-a850cfc3-0490-4bea-96ed-09af4378a8b2.png)
+
 ### 6. Faça login no ns1 e nslookup para as máquinas ns2, gw, e dh1.
 
 🔹nslookup para ns2
@@ -208,6 +210,8 @@ $ dig -x 10.9.13.113
 
 🔹dig para dh1
 
+![digsmb](https://user-images.githubusercontent.com/103418874/210068213-0ddbffd1-27f9-4906-9ecd-2b2ab75b59c4.png)
+
 ### 14. Faça login no ns1 e dig -x para os IPs de ns2, gw, e dh1.
 
 🔹dig -x para o IP de ns2
@@ -219,3 +223,5 @@ $ dig -x 10.9.13.113
 ![dig-xgw](https://user-images.githubusercontent.com/103418874/210026197-c595b47b-de18-4310-9e9b-40e2951a218e.png)
 
 🔹dig -x para o IP de dh1
+
+![dig-x-smb](https://user-images.githubusercontent.com/103418874/210068180-370f2bfc-d9c8-4adc-9078-c38316ade9c7.png)
