@@ -26,16 +26,24 @@ Discentes:
 
 ## Interfaces para a rede interna (LAN) configurada com o endereçamento ip do grupo
 
-## Configuração do bind9 com o nameserver1 (master) e o nameserver2 (slave)
-
+## ``CONFIGURAÇÃO DO BIND``
+#### Configuração dos servidores DNS Master e Slave
 
 ❖ nameserver1 (DNS master)
 
 #### Instalação do bind9
+✦ Instale o bind9 via apt-get
+```bash
+$ sudo apt-get install bind9 dnsutils bind9-doc 
+```
 ![instalaçaobind9](https://user-images.githubusercontent.com/103418874/209365034-9b8aec93-fb20-4459-a4fc-1af42b1a7021.png)
-#### Verificando status do serviço bind9
+#### Verifique status do serviço bind9
+```bash
+$ sudo systemctl status bind9
+```
 ![bind9](https://user-images.githubusercontent.com/103418874/209365149-e3e88741-11e4-48c2-8988-56a8b37e3798.png)
 #### Diretórios do bind
+
 ![diretoriosBind](https://user-images.githubusercontent.com/103418874/209365240-38d546bb-b6f6-4c8a-b33a-8a1fb1848311.png)
 #### Editando arquivos db:
 ✦ Zona Direta: db.grupo7.turma913.ifalara.local
