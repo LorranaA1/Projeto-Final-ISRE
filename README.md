@@ -45,7 +45,7 @@ Discentes:
 ```bash
      $ sudo nano /etc/netplan/00-installer-config.yaml
 ```
-✦ Para:
+✦ Edite do seguinte modo:
 ```bash
      network:
     ethernets:
