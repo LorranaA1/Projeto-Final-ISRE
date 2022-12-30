@@ -154,6 +154,7 @@ Com isso, o arquivo db.10.9.13.rev conterá a zona reversa da rede 10.9.13.0.
 ```bash
     $ sudo nano /etc/netplan/00-instaler-config.yaml  
 ```
+![ns2](https://user-images.githubusercontent.com/103418874/210074208-5e0f6197-9767-42d0-b501-3aebe643eb76.png)
 #### Aplique as configurações:
 ```bash
     $ sudo netplan apply
