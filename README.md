@@ -170,16 +170,20 @@ Com isso, o arquivo db.10.9.13.rev conterá a zona reversa da rede 10.9.13.0.
 ```bash
     $ sudo apt-get install bind9 dnsutils bind9-doc -y
 ```
+![get-install](https://user-images.githubusercontent.com/103418874/210074880-66397697-6706-4fc8-88bc-de97e518e631.png)
 
 #### Verifique o status do serviço:
 ```bash
     $ sudo systemctl status bind9
 ```
+![sudosystem](https://user-images.githubusercontent.com/103418874/210074966-82933d18-a6fb-473b-9dae-d3a24ea1b370.png)
 
 #### Configure as zonas:
 ```bash
     $ sudo nano /etc/bind/named.conf.local
 ```
+![zona](https://user-images.githubusercontent.com/103418874/210075038-6017ad95-6a8e-4dfe-905c-67b931169ded.png)
+
 #### Chegando a sintaxe
 ✦ Execute o comando named-checkconf
 ```bash
