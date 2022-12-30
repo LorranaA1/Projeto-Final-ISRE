@@ -47,14 +47,29 @@ Discentes:
 ```
 ✦ Edite do seguinte modo:
 ```bash
-     network:
-    ethernets:
-        enp0s3:
-            dhcp4: true
-        enp0s8:
-            addresses: [10.0.0.1/24]
-            dhcp4: false              
-    version: 2
+network:
+  renderer: networkd
+  ethernets:
+    ens160:
+      dhcp4: false
+      addresses: [10.9.13.131/24]
+      gateway4: 10.9.13.1
+      nameservers:
+         addresses:
+           - 10.9.13.126
+           - 10.9.13.113
+         search: [grupo7.turma913.ifalara.local]
+
+    ens192:
+      dhcp4: false
+      addresses: [192.168.13.97/28]
+      #gateway4: 
+      #nameservers:
+      #   addresses:
+      #     - 
+      #     - 
+      #   search: []
+  version: 2
 ```
 
 #### Recrie o arquivo /etc/rc.local adicionando:
