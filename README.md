@@ -186,26 +186,26 @@ $ dig -x 10.9.13.113
 
 ### 6. Faça login no ns1 e nslookup para as máquinas ns2, gw, e dh1.
 
-* nslookup para ns2
-* nslookup para gw
-* nslookup para dh1
+🔹nslookup para ns2
+🔹nslookup para gw
+🔹nslookup para dh1
 
 ### 10. Faça login no ns1 e dig para as máquinas ns2, gw, e dh1.
 
-* dig para ns2
+🔹dig para ns2
 ![digns2](https://user-images.githubusercontent.com/103418874/210026118-831b5166-7b2a-4de5-8895-069ba7088ecc.png)
 
-* dig para gw
+🔹dig para gw
 ![pinggw](https://user-images.githubusercontent.com/103418874/210026131-4a5b4b61-7786-4058-b99c-4482a24a55cd.png)
 
-* dig para dh1
+🔹dig para dh1
 
 ### 14. Faça login no ns1 e dig -x para os IPs de ns2, gw, e dh1.
 
-* dig -x para o IP de ns2
+🔹dig -x para o IP de ns2
 ![dig-xns2](https://user-images.githubusercontent.com/103418874/210026186-b13c1eae-158e-40d3-9d34-d6cd3343d869.png)
 
-* dig -x para o IP de gw
+🔹dig -x para o IP de gw
 ![dig-xgw](https://user-images.githubusercontent.com/103418874/210026197-c595b47b-de18-4310-9e9b-40e2951a218e.png)
 
-* dig -x para o IP de dh1
+🔹dig -x para o IP de dh1
