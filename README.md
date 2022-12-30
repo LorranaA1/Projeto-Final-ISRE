@@ -270,7 +270,7 @@ exit 0
 ⚠️ O domínio será: grupo7.turma913.ifalara.local. 
 Para isso, copie o arquivo /etc/bind/db.empty:
 
-    $ sudo cp /etc/bind/db.empty /etc/bind/zones/db.labredes.ifalarapiraca.local 
+    $ sudo cp /etc/bind/db.empty /etc/bind/zones/db.grupo7.turma913.ifalara.local
     
 ```
 ✦ Crie também a zona reversa a partir do arquivo /etc/bind/db.empty
