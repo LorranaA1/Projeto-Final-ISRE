@@ -16,13 +16,8 @@ Discentes:
 
 ## ``DEFINIÇÕES``
 
-## Tabela de definições de nomes e IPS para todas as VMs
-
-## Configuração de hardware utilizada
-
-✦ VMs
-
-## Hostnames com o nome de domínio no S.O. de cada MV
+## Tabela de definições de nomes e IPS para todas as VMs e Hostnames com o nome de domínio no S.O. de cada MV
+![Tabela de definições](https://user-images.githubusercontent.com/103418874/210073911-5d55451f-2fc3-4709-a72e-c39687bf1ba0.jpg)
 
 ## Gateway server
 
