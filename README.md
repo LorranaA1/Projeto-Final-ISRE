@@ -187,7 +187,9 @@ $ dig -x 10.9.13.113
 ### 6. Faça login no ns1 e nslookup para as máquinas ns2, gw, e dh1.
 
 🔹nslookup para ns2
+
 🔹nslookup para gw
+
 🔹nslookup para dh1
 
 ### 10. Faça login no ns1 e dig para as máquinas ns2, gw, e dh1.
