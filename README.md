@@ -16,7 +16,11 @@ Discentes:
 
 ## ``DEFINIÇÕES``
 
-## Configuração de hardware utilizada em cada MV
+## Tabela de definições de nomes e IPS para todas as VMs
+
+## Configuração de hardware utilizada
+
+✦ VMs
 
 ## Hostnames com o nome de domínio no S.O. de cada MV
 
