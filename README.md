@@ -52,8 +52,8 @@ Discentes:
 1. Removendo comentários do arquivo acima
 
 
-``bash
-    sudo bash -c 'grep -v -E "^#|^;" /etc/samba/smb.conf.backup | grep . > /etc/samba/smb.conf'
+```bash
+   $ sudo bash -c 'grep -v -E "^#|^;" /etc/samba/smb.conf.backup | grep . > /etc/samba/smb.conf'
 ```
 
 
