@@ -288,14 +288,14 @@ Com isso, o arquivo db.10.9.13.rev conterá a zona reversa da rede 10.9.13.0.
 ```bash
     $ sudo nano db.grupo7.turma913.ifalara.local 
 ```
-![zonaD](https://user-images.githubusercontent.com/103418874/209365372-f077e8f2-7555-4f6e-a88c-216278a2fd41.png)
+![zonaD](https://user-images.githubusercontent.com/103418874/210083222-02487aac-6c94-4ba7-8e52-b2f9b0440075.png)
 
 #### ❖ Zona reversa: db.10.9.13.rev
 ✦ Edite o arquivo db.10.9.13.rev para adicionar as informações da zona reversa
 ```bash
     $ sudo nano db.10.9.13.rev
 ```
-![zonaR](https://user-images.githubusercontent.com/103418874/209365397-e531bdfb-75b2-4539-bf3e-f29ac906c8b6.png)
+![zonaR](https://user-images.githubusercontent.com/103418874/210083243-6e93ff92-0ebb-4f30-9fee-2c9ec2ea6034.png)
 
 #### Configuração do named.conf.local no arquivo do bind:
 ✦ Edite o arquivo de configuracão do bind para informar onde eles foram salvos. As zonas são adicionadas em /etc/bind/named.conf.local.
