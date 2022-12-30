@@ -141,9 +141,14 @@ Com isso, o arquivo db.10.9.13.rev conterá a zona reversa da rede 10.9.13.0.
 ✦ DNS MASTER
 
 ⇨ Testando a configuração como cliente:
+```bash
+$ systemd-resolve --status enp0s3
+```
 ![configComoCliente](https://user-images.githubusercontent.com/103418874/209367255-9fc4aa20-cbbd-46a6-ad50-5b0708498809.png)
 
 ⇨ Testando o serviço DNS para a máquina ns1:
+```bash
+$ dig ns1.grupo7.ifalara.local
 ![servicoDNSparaAmaquina1](https://user-images.githubusercontent.com/103418874/209367286-3b55f2c1-2e4b-4673-b921-302f782dd101.png)
 
 ⇨ Testando o serviço DNS reverso para a máquina ns1:
@@ -157,3 +162,6 @@ Com isso, o arquivo db.10.9.13.rev conterá a zona reversa da rede 10.9.13.0.
 ❖ SAMBA
 
 ❖ SERVIDOR WEB
+
+## ``EXERCÍCIOS``
+
