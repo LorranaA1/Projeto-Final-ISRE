@@ -174,10 +174,10 @@ $ dig -x 10.9.13.113
 
 2. Faça login no ns1 e ping para as máquinas ns2, gw, e dh1.
 
-* ping para ns2
+ 🔹ping para ns2
 ![pingns2](https://user-images.githubusercontent.com/103418874/210026024-53924886-d19c-4ba9-9262-205365d788ac.png)
 
-* ping para gw
+ 🔹ping para gw
 ![pinggw](https://user-images.githubusercontent.com/103418874/210026038-0c09df57-0185-48b3-980b-ca3598c92bab.png)
 
 * ping para dh1
