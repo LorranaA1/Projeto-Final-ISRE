@@ -53,7 +53,9 @@ $ sudo mkdir /etc/bind/zones
 ```
 ✦ Após isso, crie o arquivo db no diretório /etc/bind/zones
 ```bash
-⚠️ O domínio/zona local será: grupo7.turma913.ifalara.local. Para isso, faça uma cópia do arquivo /etc/bind/db.empty:
+⚠️ O domínio/zona local será: grupo7.turma913.ifalara.local. 
+Para isso, faça uma cópia do arquivo /etc/bind/db.empty:
+
 $ sudo cp /etc/bind/db.empty /etc/bind/zones/db.labredes.ifalarapiraca.local 
 ```
 ![diretoriosBind](https://user-images.githubusercontent.com/103418874/209365240-38d546bb-b6f6-4c8a-b33a-8a1fb1848311.png)
