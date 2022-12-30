@@ -182,6 +182,7 @@ Com isso, o arquivo db.10.9.13.rev conterá a zona reversa da rede 10.9.13.0.
 ```bash
     $ sudo nano /etc/bind/named.conf.local
 ```
+![zonacerta](https://user-images.githubusercontent.com/103418874/210076403-c0564e10-0b93-4f66-8adb-edfcaf768da6.png)
 
 #### Chegando a sintaxe
 ✦ Execute o comando named-checkconf
@@ -225,8 +226,15 @@ $ dig -x 10.9.13.113
 
 ⇨ Resolvendo um hostname em um server específico com o comando **dig @server hostname**
 ```bash
-$ dig @10.9.13.126 ns1.grupo7.turma913.ifalara.local ou
-$ dig @10.9.13.131 gw.grupo7.turma913.ifalara.local ou
+$ dig @10.9.13.126 ns1.grupo7.turma913.ifalara.local
+```
+![dig-ns1](https://user-images.githubusercontent.com/103418874/210076503-9b29eb35-4af2-4518-8cf3-b671314afd55.png)
+
+```bash
+$ dig @10.9.13.131 gw.grupo7.turma913.ifalara.local
+```
+
+```bash
 $ dig @10.9.13.123 smb.grupo7.turma913.ifalara.local
 ```
 
