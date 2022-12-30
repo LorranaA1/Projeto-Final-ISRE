@@ -109,8 +109,6 @@ iptables -t nat -A POSTROUTING -o ens160 -j MASQUERADE
 
 exit 0
 ```
-![unnamed (2)](https://user-images.githubusercontent.com/103428491/210074984-ec11cd11-cf2d-4665-9e98-17f4c5ceec54.png)
-
 
 #### convertendo o arquivo em executável e tornando-o inicializável no boot
 
