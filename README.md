@@ -245,10 +245,42 @@ exit 0
 3. Mudando permissões 
 
 ```bash
+
+   # Criar o diretório sambashare
+   
+   $ mkdir /home/<username>/sambashare
+   
+   
+
    sudo chown -R nobody:nogroup /samba/public
    sudo chmod -R 0775 /samba/public
    sudo chgrp sambashare /samba/public
 ```
+
+
+### Testando o serviço
+
+## No Windows
+
+1. Vá para o gerenciador de arquivos e entre em rede
+2. Na aba de pesquisa, digite:
+
+```bash
+
+   smb:\\10.9.13.131 (ver se é isso mesmo)
+```
+
+## No linux
+
+1. Vá para o gerenciador de arquivos;
+2. No campo conectar ao servidor, digite:
+
+```bash
+
+   smb://10.9.13.131
+```
+
+![Captura de tela de 2022-12-30 12-11-43](https://user-images.githubusercontent.com/103426684/210085130-4d413234-a95d-47f6-bd15-c1643cd84676.png)
 
 
     
