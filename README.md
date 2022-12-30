@@ -26,6 +26,18 @@ Discentes:
 
 ## Gateway server
 
+#### habilitando o firewall e permitir o acesso ssh
+```bash
+     $ sudo ufw enable
+     $ sudo ufw allow ssh
+```
+
+#### habilitar o encaminhamento de pacotes das interfaces WAN para LAN
+✦ No arquivo /etc/ufw/sysctl.conf descomentar a seguinte linha:
+```bash
+     net/ipv4/ip_forwarding=1
+```
+
 ## Compartilhamento de arquivos com SAMBA
 
 ## Interfaces para a rede interna (LAN) configurada com o endereçamento ip do grupo
