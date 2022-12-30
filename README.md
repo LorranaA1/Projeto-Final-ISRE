@@ -61,6 +61,7 @@ Discentes:
 
 
 1. Editar o arquivo de configuração
+
 ```bash
     # Adicionar o que segue:
 
@@ -111,14 +112,15 @@ Discentes:
    create mask = 0660
    directory mask = 0771
    writable = yes
-   guest ok = yes
-   guest only = yes
-   force user = nobody
-   force create mode = 0777
-   force directory mode = 0777
+   guest ok = no
+   valid users = @sambashare
+   #guest only = yes
+   #force user = nobody
+   #force create mode = 0777
+   #force directory mode = 0777
 ```
 
-
+2. 
 
 
 ## Interfaces para a rede interna (LAN) configurada com o endereçamento ip do grupo
