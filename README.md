@@ -41,6 +41,8 @@ Discentes:
      net/ipv4/ip_forwarding=1
 ```
 
+![unnamed (4)](https://user-images.githubusercontent.com/103428491/210076018-08010daf-8778-4d0c-8bf4-ae10056a0303.png)
+
 ![unnamed (1)](https://user-images.githubusercontent.com/103428491/210074878-c8ad2781-823f-431c-9a8c-617117785e07.png)
 
 
