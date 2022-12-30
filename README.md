@@ -61,11 +61,10 @@ Discentes:
 
 
 1. Editar o arquivo de configuração
-
 ```bash
     # Adicionar o que segue:
 
-    [global]
+[global]
    workgroup = WORKGROUP
    netbios name = samba-srv
    security = user
