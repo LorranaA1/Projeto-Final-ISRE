@@ -26,6 +26,22 @@ Discentes:
 
 ## Gateway server
 
+#### habilitando o firewall e permitir o acesso ssh
+```bash
+     $ sudo ufw enable
+     $ sudo ufw allow ssh
+```
+
+![unnamed](https://user-images.githubusercontent.com/103428491/210074123-a32f6777-48e8-4e70-bc89-176b004fb8b2.png)
+
+
+#### habilitar o encaminhamento de pacotes das interfaces WAN para LAN
+✦ No arquivo /etc/ufw/sysctl.conf descomentar a seguinte linha:
+```bash
+     net/ipv4/ip_forwarding=1
+```
+
+
 ## Compartilhamento de arquivos com SAMBA
 
 ### ❖ Instalando o samba 
