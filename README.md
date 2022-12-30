@@ -58,18 +58,27 @@ Para isso, copie o arquivo /etc/bind/db.empty:
 
 $ sudo cp /etc/bind/db.empty /etc/bind/zones/db.labredes.ifalarapiraca.local 
 ```
-✦ Crie também a zona reversa a partir do arquivo /etc/bind/db.127
+✦ Crie também a zona reversa a partir do arquivo /etc/bind/db.empty
 ```bash
-⚠️ Usado quando não se conhece o IP, mas sabe-se o nome do host.
+⚠️ Usado quando não se conhece o IP, mas sabe-se o host.
 
-$ sudo cp /etc/bind/db.127 /etc/bind/zones/db.10.9.14.rev
+$ sudo cp /etc/bind/db.empty /etc/bind/zones/db.10.9.13.rev
+
+Com isso, o arquivo db.10.9.13.rev conterá a zona reversa da rede 10.9.13.0.
 ```
 ![diretoriosBind](https://user-images.githubusercontent.com/103418874/209365240-38d546bb-b6f6-4c8a-b33a-8a1fb1848311.png)
 #### Editando arquivos db:
 ✦ Zona Direta: db.grupo7.turma913.ifalara.local
+##### Edite o arquivo db.grupo7.turma913.ifalara.local para adcionar as informações do seu domínio
+```
+    $ sudo nano db.grupo7.turma913.ifalara.local 
+```bash
 ![zonaD](https://user-images.githubusercontent.com/103418874/209365372-f077e8f2-7555-4f6e-a88c-216278a2fd41.png)
 
 ✦ Zona reversa: db.10.9.13.rev
+##### Edite o arquivo db.10.9.13.rev para adicionar as informações da zona reversa
+```
+    $ sudo nano db.10.9.13.rev
 ![zonaR](https://user-images.githubusercontent.com/103418874/209365397-e531bdfb-75b2-4539-bf3e-f29ac906c8b6.png)
 
 #### Configuração do named.conf.local no arquivo do bind:
