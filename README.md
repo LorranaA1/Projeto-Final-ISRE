@@ -116,7 +116,7 @@ Discentes:
    guest only = yes
    force user = nobody
    force create mode = 0777
-   force directory mode = 0777 
+   force directory mode = 0777
 ```
 
 
