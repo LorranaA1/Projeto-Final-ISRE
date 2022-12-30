@@ -169,11 +169,9 @@ Com isso, o arquivo db.10.9.13.rev conterá a zona reversa da rede 10.9.13.0.
     $sudo named-checkconf
 ```
 
-## Implementando um servidor Web LAMP
-
 ## ``TESTES/VALIDAÇÃO``
 
-❖ NAT
+❖ GATEWAY
 
 ❖ DNS
 
@@ -214,7 +212,6 @@ $ dig @10.9.13.123 smb.grupo7.turma913.ifalara.local
 
 ❖ SAMBA
 
-❖ SERVIDOR WEB
 
 ## ``EXERCÍCIOS``
 
