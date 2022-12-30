@@ -149,12 +149,19 @@ $ systemd-resolve --status enp0s3
 ⇨ Testando o serviço DNS para a máquina ns1:
 ```bash
 $ dig ns1.grupo7.ifalara.local
+```
 ![servicoDNSparaAmaquina1](https://user-images.githubusercontent.com/103418874/209367286-3b55f2c1-2e4b-4673-b921-302f782dd101.png)
 
 ⇨ Testando o serviço DNS reverso para a máquina ns1:
+```bash
+$ dig -x 10.9.13.126
+```
 ![DNSreversoMaquina1](https://user-images.githubusercontent.com/103418874/209367336-32808973-7fa9-45d3-8582-dd1f8200efaa.png)
 
 ⇨ Testando o serviço DNS reverso para a máquina ns2:
+```bash
+$ dig -x 10.9.13.113
+```
 ![DNSreversoMaquina2](https://user-images.githubusercontent.com/103418874/209367353-2a88aa60-d286-445b-8da0-c8bf6bcba6d2.png)
 
 ✦ DNS SLAVE
