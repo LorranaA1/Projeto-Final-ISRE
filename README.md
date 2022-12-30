@@ -182,7 +182,6 @@ Com isso, o arquivo db.10.9.13.rev conterá a zona reversa da rede 10.9.13.0.
 ```bash
     $ sudo nano /etc/bind/named.conf.local
 ```
-![zona](https://user-images.githubusercontent.com/103418874/210075038-6017ad95-6a8e-4dfe-905c-67b931169ded.png)
 
 #### Chegando a sintaxe
 ✦ Execute o comando named-checkconf
