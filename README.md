@@ -495,7 +495,11 @@ $ dig @10.9.13.123 smb.grupo7.turma913.ifalara.local
 
 🔹nslookup para ns2
 
+![lookup](https://user-images.githubusercontent.com/103418874/210086735-8e18e914-8de0-4cbd-bdbc-e91a95a177de.png)
+
 🔹nslookup para gw
+
+![nslookup-gw](https://user-images.githubusercontent.com/103418874/210086761-5b4b61f1-07cd-4332-9960-7b341d1486a5.png)
 
 🔹nslookup para dh1
 
