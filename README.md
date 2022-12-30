@@ -158,7 +158,7 @@ exit 0
     $ sudo systemctl status smbd 
 ```
 
-### Adicionando arquivo de backup
+#### Adicionando arquivo de backup
 
 ```bash
     $ sudo cp /etc/samba/smb.conf{,.backup} 
@@ -172,7 +172,7 @@ exit 0
 ```
 
 
-### Acessando o servidor samba
+#### Acessando o servidor samba
 
 
 1. Editar o arquivo de configuração
