@@ -229,11 +229,9 @@ $ dig -x 10.9.13.113
 $ dig @10.9.13.126 ns1.grupo7.turma913.ifalara.local
 ```
 ![dig-ns1](https://user-images.githubusercontent.com/103418874/210076503-9b29eb35-4af2-4518-8cf3-b671314afd55.png)
-
 ```bash
 $ dig @10.9.13.131 gw.grupo7.turma913.ifalara.local
 ```
-
 ```bash
 $ dig @10.9.13.123 smb.grupo7.turma913.ifalara.local
 ```
