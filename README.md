@@ -27,9 +27,9 @@ Discentes:
 ## Interfaces para a rede interna (LAN) configurada com o endereçamento ip do grupo
 
 ## ``CONFIGURAÇÃO DO BIND``
-### Configuração dos servidores DNS Master e Slave
+## Configuração dos servidores DNS Master e Slave
 
-#### ❖ nameserver1 (DNS master)
+### ❖ nameserver1 (DNS master)
 
 #### Instalação do bind9
 ✦ Instale o bind9 via apt-get
@@ -50,6 +50,11 @@ $ ls /etc/bind
 ✦ Em seguida, crie um diretório para armazenar os arquivos de zonas (será o diretório /etc/bind/zones)
 ```bash
 $ sudo mkdir /etc/bind/zones
+```
+✦ Após isso, crie o arquivo db no diretório /etc/bind/zones
+```bash
+⚠️ O domínio/zona local será: grupo7.turma913.ifalara.local. Para isso, faça uma cópia do arquivo /etc/bind/db.empty:
+$ sudo cp /etc/bind/db.empty /etc/bind/zones/db.labredes.ifalarapiraca.local 
 ```
 ![diretoriosBind](https://user-images.githubusercontent.com/103418874/209365240-38d546bb-b6f6-4c8a-b33a-8a1fb1848311.png)
 #### Editando arquivos db:
