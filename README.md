@@ -108,11 +108,24 @@ Com isso, o arquivo db.10.9.13.rev conterá a zona reversa da rede 10.9.13.0.
 ```bash
     $sudo nano /etc/default/named
 ```
+✦ Adicione a linha OPTIONS="-4 -u bind"
 ![enderecoIPV4](https://user-images.githubusercontent.com/103418874/209366328-9d73e09b-4d32-41ec-ab08-6ae75fda25e0.png)
-#### Executando o bind:
+#### Execute o bind:
+```bash
+    $ sudo systemctl enable bind9
+    $ sudo systemctl restart bind9
+```
 ![executandoOBind](https://user-images.githubusercontent.com/103418874/209366760-cdde525d-54d8-4824-bd64-a34c78cf7317.png)
 #### Configuração dos clientes:
-✦ Editando o arquivo de configuração do netplan:
+✦ Edite o arquivo de configuração do netplan:
+```bash
+⚠️ Adicione os campos abaixo na interface de rede:
+            nameservers: 
+                addresses:
+                - 10.9.13.126
+                - 10.9.14.113
+                search: [grupo7.turma913.ifalara.local]
+```
 ![arquivoNetplan](https://user-images.githubusercontent.com/103418874/209366779-1d892404-7b27-4b73-ad90-be4cd42d2e8f.png)
 
 #### ❖ nameserver2 (DNS slave)
