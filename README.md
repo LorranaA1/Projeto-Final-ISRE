@@ -148,7 +148,7 @@ $ systemd-resolve --status enp0s3
 
 ⇨ Testando o serviço DNS para a máquina ns1:
 ```bash
-$ dig ns1.grupo7.ifalara.local
+$ dig ns1.grupo7.turma913.ifalara.local
 ```
 ![servicoDNSparaAmaquina1](https://user-images.githubusercontent.com/103418874/209367286-3b55f2c1-2e4b-4673-b921-302f782dd101.png)
 
