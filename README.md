@@ -70,15 +70,16 @@ Com isso, o arquivo db.10.9.13.rev conterá a zona reversa da rede 10.9.13.0.
 #### Editando arquivos db:
 ✦ Zona Direta: db.grupo7.turma913.ifalara.local
 ##### Edite o arquivo db.grupo7.turma913.ifalara.local para adcionar as informações do seu domínio
-```
-    $ sudo nano db.grupo7.turma913.ifalara.local 
 ```bash
+    $ sudo nano db.grupo7.turma913.ifalara.local 
+```
 ![zonaD](https://user-images.githubusercontent.com/103418874/209365372-f077e8f2-7555-4f6e-a88c-216278a2fd41.png)
 
 ✦ Zona reversa: db.10.9.13.rev
 ##### Edite o arquivo db.10.9.13.rev para adicionar as informações da zona reversa
-```
+```bash
     $ sudo nano db.10.9.13.rev
+```
 ![zonaR](https://user-images.githubusercontent.com/103418874/209365397-e531bdfb-75b2-4539-bf3e-f29ac906c8b6.png)
 
 #### Configuração do named.conf.local no arquivo do bind:
