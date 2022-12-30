@@ -84,14 +84,30 @@ Com isso, o arquivo db.10.9.13.rev conterá a zona reversa da rede 10.9.13.0.
 ![zonaR](https://user-images.githubusercontent.com/103418874/209365397-e531bdfb-75b2-4539-bf3e-f29ac906c8b6.png)
 
 #### Configuração do named.conf.local no arquivo do bind:
+✦ Edite o arquivo de configuracão do bind para informar onde eles foram salvos. As zonas são adicionadas em /etc/bind/named.conf.local.
+```bash
+    $ sudo nano /etc/bind/named.conf.local
+```
 ![configuracaoNamed_conf_local](https://user-images.githubusercontent.com/103418874/209365620-a61048b3-b4a0-4af2-ac60-486deefe25e0.png)
 #### Verificação de sintaxe:
-
-✦ Sintaxe dos arquivos db
+✦ Execute o comando named-checkconf
+```bash
+    $sudo named-checkconf
+```
+✦ Verifique a sintaxe dos arquivos db
+```bash
+    $ sudo named-checkzone grupo7.turma913.ifalara.local grupo7.turma913.ifalara.local
+```
 ![sintaxeArquivo](https://user-images.githubusercontent.com/103418874/209366209-1f4e8af5-5a58-4866-a95b-9c2e679c76d7.png)
+```bash
+    $ sudo named-checkzone 13.9.10.in-addr.arpa db.10.9.13.rev
+```
 ![sintaxeArquivo2](https://user-images.githubusercontent.com/103418874/209366214-73eb64f4-e8f9-47e0-8111-643c7daf6f26.png)
 
-#### Configurando para somente resolver endereços IPv4:
+#### Configure para somente resolver endereços IPv4:
+```bash
+    $sudo nano /etc/default/named
+```
 ![enderecoIPV4](https://user-images.githubusercontent.com/103418874/209366328-9d73e09b-4d32-41ec-ab08-6ae75fda25e0.png)
 #### Executando o bind:
 ![executandoOBind](https://user-images.githubusercontent.com/103418874/209366760-cdde525d-54d8-4824-bd64-a34c78cf7317.png)
