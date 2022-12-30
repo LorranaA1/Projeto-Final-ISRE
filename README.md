@@ -47,6 +47,10 @@ $ sudo systemctl status bind9
 ```bash
 $ ls /etc/bind
 ```
+✦ Em seguida, crie um diretório para armazenar os arquivos de zonas (será o diretório /etc/bind/zones)
+```bash
+$ sudo mkdir /etc/bind/zones
+```
 ![diretoriosBind](https://user-images.githubusercontent.com/103418874/209365240-38d546bb-b6f6-4c8a-b33a-8a1fb1848311.png)
 #### Editando arquivos db:
 ✦ Zona Direta: db.grupo7.turma913.ifalara.local
