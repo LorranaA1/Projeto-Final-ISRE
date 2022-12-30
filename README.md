@@ -41,6 +41,85 @@ Discentes:
      net/ipv4/ip_forwarding=1
 ```
 
+![unnamed (1)](https://user-images.githubusercontent.com/103428491/210074878-c8ad2781-823f-431c-9a8c-617117785e07.png)
+
+
+#### configurando as interfaces de rede (netplan)
+```bash
+     $ sudo nano /etc/netplan/50-cloud-init.yaml 
+```
+
+✦ para:
+```bash
+     network:
+    ethernets:
+        enp0s3:
+            dhcp4: true
+        enp0s8:
+            addresses: [10.0.0.1/24]
+            dhcp4: false              
+    version: 2
+```
+
+#### recriando o arquivo /etc/rc.local
+✦ e adicionando:
+```bash
+     #!/bin/bash
+
+# /etc/rc.local
+
+# Default policy to drop all incoming packets.
+# Politica padrão para bloquear (drop) todos os pacotes de entrada
+iptables -P INPUT DROP
+iptables -P FORWARD DROP
+
+# Accept incoming packets from localhost and the LAN interface.
+# Aceita pacotes de entrada a partir das interfaces localhost e the LAN.
+iptables -A INPUT -i lo -j ACCEPT
+iptables -A INPUT -i enp0s8 -j ACCEPT
+
+# Accept incoming packets from the WAN if the router initiated the connection.
+# Aceita pacotes de entrada a partir da WAN se o roteador iniciou a conexao
+iptables -A INPUT -i enp0s3 -m conntrack \
+--ctstate ESTABLISHED,RELATED -j ACCEPT
+
+# Forward LAN packets to the WAN.
+# Encaminha os pacotes da LAN para a WAN
+iptables -A FORWARD -i enp0s8 -o enp0s3 -j ACCEPT
+
+# Forward WAN packets to the LAN if the LAN initiated the connection.
+# Encaminha os pacotes WAN para a LAN se a LAN inicar a conexao.
+iptables -A FORWARD -i enp0s3 -o enp0s8 -m conntrack \
+--ctstate ESTABLISHED,RELATED -j ACCEPT
+
+# NAT traffic going out the WAN interface.
+# Trafego NAT sai pela interface WAN
+iptables -t nat -A POSTROUTING -o enp0s3 -j MASQUERADE
+
+# rc.local needs to exit with 0
+# rc.local precisa sair com 0
+exit 0
+```
+![unnamed (2)](https://user-images.githubusercontent.com/103428491/210074984-ec11cd11-cf2d-4665-9e98-17f4c5ceec54.png)
+
+
+#### convertendo o arquivo em executável e tornando-o inicializável no boot
+
+```bash
+     $ sudo chmod 755 /etc/rc.local
+```
+
+#### verificando se o firewall está funcionando
+
+```bash
+     $ sudo ufw status
+```
+```bash
+     $ systemctl status ufw.service
+```
+
+![unnamed (3)](https://user-images.githubusercontent.com/103428491/210075323-31801afa-1518-45fc-85d2-4b6d8455c16d.png)
+
 
 ## Compartilhamento de arquivos com SAMBA
 
