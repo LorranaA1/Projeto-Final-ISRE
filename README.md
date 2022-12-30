@@ -41,7 +41,7 @@ Discentes:
     $ sudo apt-get install bind9 dnsutils bind9-doc 
 ```
 ![instalaçaobind9](https://user-images.githubusercontent.com/103418874/209365034-9b8aec93-fb20-4459-a4fc-1af42b1a7021.png)
-#### Verifique status do serviço bind9
+#### Verifique status do serviço bind9:
 ```bash
     $ sudo systemctl status bind9
 ```
@@ -134,6 +134,41 @@ Com isso, o arquivo db.10.9.13.rev conterá a zona reversa da rede 10.9.13.0.
 
 #### ❖ nameserver2 (DNS slave)
 
+#### Configure o DNS master na interface de rede:
+✦ Configure a interface de rede com o netplan usando o DNS Master para fazer o ns2 acessar a Internet
+```bash
+    $ sudo nano /etc/netplan/00-instaler-config.yaml  
+```
+#### Aplique as configurações:
+```bash
+    $ sudo netplan apply
+```
+
+#### Verifique se funcionou:
+```bash
+    $ ifconfig
+```
+
+#### ⇨ Configurando e instalando um servidor DNS secundário (slave)
+```bash
+    $ sudo apt-get install bind9 dnsutils bind9-doc -y
+```
+
+#### Verifique o status do serviço:
+```bash
+    $ sudo systemctl status bind9
+```
+
+#### Configure as zonas:
+```bash
+    $ sudo nano /etc/bind/named.conf.local
+```
+#### Chegando a sintaxe
+✦ Execute o comando named-checkconf
+```bash
+    $sudo named-checkconf
+```
+
 ## Implementando um servidor Web LAMP
 
 ## ``TESTES/VALIDAÇÃO``
@@ -169,6 +204,13 @@ $ dig -x 10.9.13.113
 ![DNSreversoMaquina2](https://user-images.githubusercontent.com/103418874/209367353-2a88aa60-d286-445b-8da0-c8bf6bcba6d2.png)
 
 ✦ DNS SLAVE
+
+⇨ Resolvendo um hostname em um server específico com o comando **dig @server hostname**
+```bash
+$ dig @10.9.13.126 ns1.grupo7.turma913.ifalara.local ou
+$ dig @10.9.13.131 gw.grupo7.turma913.ifalara.local ou
+$ dig @10.9.13.123 smb.grupo7.turma913.ifalara.local
+```
 
 ❖ SAMBA
 
