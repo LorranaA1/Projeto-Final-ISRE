@@ -164,6 +164,7 @@ Com isso, o arquivo db.10.9.13.rev conterá a zona reversa da rede 10.9.13.0.
 ```bash
     $ ifconfig
 ```
+![ifconfig](https://user-images.githubusercontent.com/103418874/210074714-bfd5f642-fef8-4a10-bbfc-5bed533d5e13.png)
 
 #### ⇨ Configurando e instalando um servidor DNS secundário (slave)
 ```bash
