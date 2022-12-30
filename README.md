@@ -364,7 +364,8 @@ Com isso, o arquivo db.10.9.13.rev conterá a zona reversa da rede 10.9.13.0.
 ```bash
     $ sudo nano /etc/netplan/00-instaler-config.yaml  
 ```
-![ns2](https://user-images.githubusercontent.com/103418874/210074208-5e0f6197-9767-42d0-b501-3aebe643eb76.png)
+![netplan-ns2](https://user-images.githubusercontent.com/103418874/210084175-a9ea32bf-fcc6-4213-b1c2-5344562c2830.png)
+
 #### Aplique as configurações:
 ```bash
     $ sudo netplan apply
@@ -392,7 +393,7 @@ Com isso, o arquivo db.10.9.13.rev conterá a zona reversa da rede 10.9.13.0.
 ```bash
     $ sudo nano /etc/bind/named.conf.local
 ```
-![zonacerta](https://user-images.githubusercontent.com/103418874/210076403-c0564e10-0b93-4f66-8adb-edfcaf768da6.png)
+![ns2-zona](https://user-images.githubusercontent.com/103418874/210084237-db9a3ea8-3a40-43e6-9d52-f02728e453d0.png)
 
 #### Chegando a sintaxe
 ✦ Execute o comando named-checkconf
@@ -401,8 +402,6 @@ Com isso, o arquivo db.10.9.13.rev conterá a zona reversa da rede 10.9.13.0.
 ```
 
 ## ``TESTES/VALIDAÇÃO``
-
-❖ GATEWAY
 
 ❖ DNS
 
