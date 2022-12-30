@@ -65,7 +65,7 @@ Para isso, copie o arquivo /etc/bind/db.empty:
 ```
 ✦ Crie também a zona reversa a partir do arquivo /etc/bind/db.empty
 ```bash
-⚠️ Usado quando não se conhece o IP, mas sabe-se o host.
+⚠ Usado quando não se conhece o IP, mas sabe-se o host.
 
     $ sudo cp /etc/bind/db.empty /etc/bind/zones/db.10.9.13.rev
 
