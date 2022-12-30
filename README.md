@@ -34,35 +34,36 @@ Discentes:
 #### Instalação do bind9
 ✦ Instale o bind9 via apt-get
 ```bash
-$ sudo apt-get install bind9 dnsutils bind9-doc 
+    $ sudo apt-get install bind9 dnsutils bind9-doc 
 ```
 ![instalaçaobind9](https://user-images.githubusercontent.com/103418874/209365034-9b8aec93-fb20-4459-a4fc-1af42b1a7021.png)
 #### Verifique status do serviço bind9
 ```bash
-$ sudo systemctl status bind9
+    $ sudo systemctl status bind9
 ```
 ![bind9](https://user-images.githubusercontent.com/103418874/209365149-e3e88741-11e4-48c2-8988-56a8b37e3798.png)
 #### Diretórios do bind
 ✦ Verifique se os arquivos do bind estão no diretório /etc/bind.
 ```bash
-$ ls /etc/bind
+    $ ls /etc/bind
 ```
 ✦ Em seguida, crie um diretório para armazenar os arquivos de zonas (será o diretório /etc/bind/zones)
 ```bash
-$ sudo mkdir /etc/bind/zones
+    $ sudo mkdir /etc/bind/zones
 ```
 ✦ Após isso, crie o arquivo db no diretório /etc/bind/zones
 ```bash
 ⚠️ O domínio será: grupo7.turma913.ifalara.local. 
 Para isso, copie o arquivo /etc/bind/db.empty:
 
-$ sudo cp /etc/bind/db.empty /etc/bind/zones/db.labredes.ifalarapiraca.local 
+    $ sudo cp /etc/bind/db.empty /etc/bind/zones/db.labredes.ifalarapiraca.local 
+    
 ```
 ✦ Crie também a zona reversa a partir do arquivo /etc/bind/db.empty
 ```bash
 ⚠️ Usado quando não se conhece o IP, mas sabe-se o host.
 
-$ sudo cp /etc/bind/db.empty /etc/bind/zones/db.10.9.13.rev
+    $ sudo cp /etc/bind/db.empty /etc/bind/zones/db.10.9.13.rev
 
 Com isso, o arquivo db.10.9.13.rev conterá a zona reversa da rede 10.9.13.0.
 ```
