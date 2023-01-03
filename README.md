@@ -146,6 +146,9 @@ exit 0
     $ sudo apt update 
 ```
 
+![unnamed](https://user-images.githubusercontent.com/103426684/210460377-31acfaae-a46f-4fa3-b9e5-8c2b710a8d16.png)
+
+
 2. Comando para instalar
 
 ```bash
