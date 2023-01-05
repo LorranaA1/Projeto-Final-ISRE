@@ -146,7 +146,10 @@ exit 0
     $ sudo apt update 
 ```
 
-![unnamed](https://user-images.githubusercontent.com/103426684/210460377-31acfaae-a46f-4fa3-b9e5-8c2b710a8d16.png)
+
+![Captura de tela 2023-01-04 214950](https://user-images.githubusercontent.com/103426684/210677319-130d348a-a418-4e24-adb2-18834836aba0.png)
+
+
 
 
 2. Comando para instalar
@@ -160,6 +163,8 @@ exit 0
 ```bash
     $ sudo systemctl status smbd 
 ```
+
+![Captura de tela 2023-01-04 214950](https://user-images.githubusercontent.com/103426684/210677528-5b33263a-6e2a-4831-a63d-5036f2540cbe.png)
 
 
 
