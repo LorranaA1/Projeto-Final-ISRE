@@ -161,11 +161,15 @@ exit 0
     $ sudo systemctl status smbd 
 ```
 
+
+
 #### Adicionando arquivo de backup
 
 ```bash
     $ sudo cp /etc/samba/smb.conf{,.backup} 
 ```
+
+![Captura de tela 2023-01-04 212812](https://user-images.githubusercontent.com/103426684/210675060-6ecd9fb4-516b-4e8e-8ecb-b81fb0c9794a.png)
 
 1. Removendo comentários do arquivo acima
 
@@ -245,6 +249,9 @@ exit 0
     Password: alunoifal
 ```
 
+![Captura de tela 2023-01-04 212812](https://user-images.githubusercontent.com/103426684/210675186-b36d80cb-5b79-4815-be0e-7b7af48d981c.png)
+
+
 3. Mudando permissões 
 
 ```bash
@@ -270,8 +277,12 @@ exit 0
 
 ```bash
 
-   smb:\\10.9.13.131 (ver se é isso mesmo)
+   smb:\\10.9.13.131
 ```
+
+
+![Captura de tela 2023-01-04 213624](https://user-images.githubusercontent.com/103426684/210675797-87ef8522-1e4b-41f0-929a-2a24817edfc8.png)
+
 
 #### No linux
 
