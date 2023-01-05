@@ -164,7 +164,8 @@ exit 0
     $ sudo systemctl status smbd 
 ```
 
-![Captura de tela 2023-01-04 215346](https://user-images.githubusercontent.com/103426684/210677650-657a08b4-3cd1-4e92-9d23-b18a240be60d.png)
+
+![Captura de tela 2023-01-04 215635](https://user-images.githubusercontent.com/103426684/210677959-da596c38-ef72-4c07-bef2-2bd0bcb09f2b.png)
 
 
 
